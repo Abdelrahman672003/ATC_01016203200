@@ -7,6 +7,14 @@ Eventora is a full-stack event booking system that enables users to explore, fil
 - Frontend: https://eventora-3102d.web.app/
 - Backend API: https://valid-toma-eventora-c540447c.koyeb.app/api
 
+## Admin Credentials
+
+To access the admin panel, use the following credentials:
+
+- **Email:** admin@eventora.com  
+- **Password:** admin123
+
+
 ## Tech Stack
 
 | Layer       | Technology                          |
@@ -17,9 +25,19 @@ Eventora is a full-stack event booking system that enables users to explore, fil
 | Hosting     | Firebase (Frontend), Koyeb (Backend) |
 | Media       | Cloudinary (Image Uploads)           |
 
+
+### Project Structure
+
+```bash
+Eventora/
+├── eventora_frontend/   # Frontend built with React + Vite
+├── eventora_backend/    # Backend built with Node.js + Express
+└── README/    # read me file for all instructions and details
+```
+
 ## Features
 
-### User-Side
+### User-Side (Frontend)
 
 - User Authentication (Sign Up / Login)
 - Home page with categorized event grid
@@ -32,6 +50,7 @@ Eventora is a full-stack event booking system that enables users to explore, fil
   - Search by name
 - Dark Mode support
 - Fully responsive and modern design
+- **Project structure follows Atomic Design Pattern** for better scalability and maintainability
 
 ### Admin Panel
 
@@ -55,7 +74,7 @@ Eventora is a full-stack event booking system that enables users to explore, fil
 ### Frontend Setup
 
 ```bash
-cd eventora-frontend
+cd eventora_frontend
 npm install
 npm run dev
 ```
@@ -63,17 +82,9 @@ npm run dev
 ### Backend Setup
 
 ```bash
-cd eventora-backend
+cd eventora_backend
 npm install
 npm run dev
-```
-
-### Project Structure
-
-```bash
-Eventora/
-├── eventora-frontend/   # Frontend built with React + Vite
-└── eventora-backend/    # Backend built with Node.js + Express
 ```
 
 ## Author - Abdelrahman Khaled
