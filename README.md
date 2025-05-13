@@ -7,6 +7,14 @@ Eventora is a full-stack event booking system that enables users to explore, fil
 - Frontend: https://eventora-3102d.web.app/
 - Backend API: https://valid-toma-eventora-c540447c.koyeb.app/api
 
+## Admin Credentials
+
+To access the admin panel, use the following credentials:
+
+- **Email:** admin@eventora.com  
+- **Password:** admin123
+
+
 ## Tech Stack
 
 | Layer       | Technology                          |
