@@ -37,7 +37,7 @@ Eventora/
 
 ## Features
 
-### User-Side
+### User-Side (Frontend)
 
 - User Authentication (Sign Up / Login)
 - Home page with categorized event grid
@@ -50,6 +50,7 @@ Eventora/
   - Search by name
 - Dark Mode support
 - Fully responsive and modern design
+- **Project structure follows Atomic Design Pattern** for better scalability and maintainability
 
 ### Admin Panel
 
