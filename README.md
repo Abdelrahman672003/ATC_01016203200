@@ -32,7 +32,7 @@ To access the admin panel, use the following credentials:
 Eventora/
 ├── eventora_frontend/   # Frontend built with React + Vite
 ├── eventora_backend/    # Backend built with Node.js + Express
-└── readME/    # read me file for all instructions and details
+└── README/    # read me file for all instructions and details
 ```
 
 ## Features
