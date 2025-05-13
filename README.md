@@ -1,64 +1,80 @@
-Eventora
-Eventora is a full-stack event booking system that allows users to explore and book events, manage their bookings, and provides an integrated web-based admin panel for complete event management.
+# Eventora
 
-Live Demo
-Frontend: https://eventora-3102d.web.app/
+Eventora is a full-stack event booking system that enables users to explore, filter, and book events, manage their bookings, and access an integrated web-based admin panel for complete event management.
 
-Backend API: https://valid-toma-eventora-c540447c.koyeb.app/api
+## Live Demo
 
-Tech Stack
-Frontend: React + Vite
-Backend: Node.js + Express.js
-Database: MongoDB
-Hosting: Firebase (Frontend), Koyeb (Backend), Cloudinary (Image Uploads)
+- Frontend: https://eventora-3102d.web.app/
+- Backend API: https://valid-toma-eventora-c540447c.koyeb.app/api
 
-Features
-User-Side
-User Authentication (Sign up / Login)
-Browse events on the home page with categorized display
-View detailed event information
-Book tickets directly from the event page
-Get confirmation on a “Congratulations” page after booking
-Add or remove events from Favorites
-Filter events by:
-- Category
-- Minimum and maximum price
-- Search by name
-Responsive and modern UI with support for all screen sizes
-Dark mode support
+## Tech Stack
 
-Admin Panel
-Integrated admin dashboard inside the web app
-Role-based access (Admin privileges)
-Create, update, view, and delete events
-Event tags and Categories
-Uploaded images (via Cloudinary)
-Pagination support for event listings
+| Layer       | Technology                          |
+|-------------|--------------------------------------|
+| Frontend    | React + Vite                         |
+| Backend     | Node.js + Express.js                 |
+| Database    | MongoDB                              |
+| Hosting     | Firebase (Frontend), Koyeb (Backend) |
+| Media       | Cloudinary (Image Uploads)           |
 
-Backend Functionality
-Authentication and role-based authorization
-CRUD operations for event management
-Image upload with Cloudinary
-Booking and favorite APIs
-Pagination for optimized data fetching
+## Features
 
-Installation
-Frontend
+### User-Side
+
+- User Authentication (Sign Up / Login)
+- Home page with categorized event grid
+- Event details page with "Book Now" functionality
+- Booking confirmation screen
+- Add or remove events from Favorites
+- Event filtering by:
+  - Category
+  - Min/Max price
+  - Search by name
+- Dark Mode support
+- Fully responsive and modern design
+
+### Admin Panel
+
+- Integrated within the main app
+- Admin-only access with role-based permissions
+- Create, Update, Delete, and View events
+- Event tagging and categorization
+- Image upload via Cloudinary
+- Pagination for efficient data management
+
+### Backend Functionalities
+
+- Authentication & Role-Based Authorization (USER, ADMIN)
+- CRUD operations for events
+- Image Upload API using Cloudinary
+- Booking API and Favorites API
+- Pagination for listings
+
+## Installation Guide
+
+### Frontend Setup
+
+```bash
 cd eventora-frontend
 npm install
 npm run dev
-To run locally with the backend, update the baseURL in axios.config.js to http://localhost:3000.
+```
 
-Backend
+### Backend Setup
+
+```bash
 cd eventora-backend
 npm install
 npm run dev
-Make sure MongoDB is running and accessible from your environment.
+```
 
-Project Structure
+### Project Structure
+
+```bash
 Eventora/
-├── eventora-frontend/    # React + Vite frontend
-└── eventora-backend/     # Node.js + Express backend
+├── eventora-frontend/   # Frontend built with React + Vite
+└── eventora-backend/    # Backend built with Node.js + Express
+```
 
-Contributors
-Project developed by Abdelrahman Nazem
+## Author - Abdelrahman Khaled
+
