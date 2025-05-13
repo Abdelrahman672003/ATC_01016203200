@@ -17,6 +17,16 @@ Eventora is a full-stack event booking system that enables users to explore, fil
 | Hosting     | Firebase (Frontend), Koyeb (Backend) |
 | Media       | Cloudinary (Image Uploads)           |
 
+
+### Project Structure
+
+```bash
+Eventora/
+├── eventora_frontend/   # Frontend built with React + Vite
+├── eventora_backend/    # Backend built with Node.js + Express
+└── readME/    # read me file for all instructions and details
+```
+
 ## Features
 
 ### User-Side
@@ -55,7 +65,7 @@ Eventora is a full-stack event booking system that enables users to explore, fil
 ### Frontend Setup
 
 ```bash
-cd eventora-frontend
+cd eventora_frontend
 npm install
 npm run dev
 ```
@@ -63,17 +73,9 @@ npm run dev
 ### Backend Setup
 
 ```bash
-cd eventora-backend
+cd eventora_backend
 npm install
 npm run dev
-```
-
-### Project Structure
-
-```bash
-Eventora/
-├── eventora-frontend/   # Frontend built with React + Vite
-└── eventora-backend/    # Backend built with Node.js + Express
 ```
 
 ## Author - Abdelrahman Khaled
